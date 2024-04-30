@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #585757;
+  color: #ffffff;
+}
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  a {
+    color: gold;
+    text-decoration: none;
+  }
+  .active {
+    display: none;
+  }
+}
+
+.container {
+  width: 70vw;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .post {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.4);
+    .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        color: gold;
+        cursor: pointer;
+      }
+    }
+  }
+}
+form {
+  background-color: black;
+  max-width: 900px;
+  width: 70vw;
+  min-height: 70vh;
+  margin: 100px auto;
+  border-radius: 10px;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 5px;
+    input {
+      border-radius: 5px;
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+    }
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+      max-height: 200px;
+      outline: none;
+      padding: 10px;
+      border-radius: 10px;
+    }
+  }
+  button {
+    background-color: gold;
+    border-radius: 10px;
+    font-weight: 900;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  h2 {
+    text-align: center;
+  }
+}
+.wrapper {
+  position: fixed;
+  background-color: rgba(128, 128, 128, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+
+  .popup {
+    background-color: white;
+    width: 70%;
+    height: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+    .btn-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h4 {
+        color: black;
+        span {
+          color: gold;
+        }
+      }
+      button {
+        border: none;
+        padding: 10px 14px;
+        background-color: red;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}

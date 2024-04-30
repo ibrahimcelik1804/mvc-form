@@ -1,0 +1,81 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": "Mehmet",
+      "title": "React MVC Pattern(Mimari)",
+      "text": "MVC Mimari ile nasıl bileşenleri yöntirim?",
+      "date": "2023-09-11T19:13:21.364Z"
+    },
+    {
+      "id": "2",
+      "user": "Ayşe",
+      "title": "Temel React Bileşenleri ve JSX",
+      "text": "JSX nedir ve nasıl kullanılır? React bileşenlerinin temel yapıları.",
+      "date": "2023-09-12T10:24:45.123Z"
+    },
+    {
+      "id": "3",
+      "user": "Ali",
+      "title": "State ve Props Kavramları",
+      "text": "Bileşenler arasında veri aktarımı: props nedir? Bileşenlerin iç durumu: state kullanımı ve yönetimi.",
+      "date": "2023-09-13T15:30:00.789Z"
+    },
+    {
+      "id": "4",
+      "user": "Fatma",
+      "title": "Component Lifecycle",
+      "text": "Bileşen yaşam döngüsü yönetimi. componentDidMount, componentDidUpdate, componentWillUnmount gibi yaşam döngüsü yöntemleri.",
+      "date": "2023-09-14T08:45:12.567Z"
+    },
+    {
+      "id": "5",
+      "user": "Ahmet",
+      "title": "React Hooks",
+      "text": "useState, useEffect ve diğer hooks'ların kullanımı. Functional component'lerde state ve yaşam döngüsü yönetimi.",
+      "date": "2023-09-15T14:20:30.456Z"
+    },
+    {
+      "id": "6",
+      "user": "Zeynep",
+      "title": "Form İşlemleri",
+      "text": "Form elemanlarının kontrolü ve durum yönetimi. Form gönderimi ve doğrulama işlemleri.",
+      "date": "2023-09-16T11:10:05.678Z"
+    },
+    {
+      "id": "7",
+      "user": "Kemal",
+      "title": "React Router",
+      "text": "React uygulamalarında yönlendirme işlemleri. Router kurulumu ve temel yönlendirme yapıları.",
+      "date": "2023-09-17T09:05:40.234Z"
+    },
+    {
+      "id": "8",
+      "user": "Aysel",
+      "title": "State Yönetimi - Context API",
+      "text": "Global durum yönetimi için Context API kullanımı. Redux gibi state yönetimi kütüphanelerine alternatif olarak Context API.",
+      "date": "2023-09-18T16:55:55.321Z"
+    },
+    {
+      "id": "9",
+      "user": "Hakan",
+      "title": "Styling in React",
+      "text": "CSS, Sass veya CSS-in-JS gibi farklı stil yönetimi yöntemleri. Component bazlı stil uygulamaları.",
+      "date": "2023-09-19T13:40:22.789Z"
+    },
+    {
+      "id": "10",
+      "user": "Gizem",
+      "title": "React ve HTTP İşlemleri",
+      "text": "Fetch API veya Axios gibi kütüphanelerle HTTP istekleri. Sunucu ile veri alışverişi ve işlemleri.",
+      "date": "2023-09-20T12:15:33.876Z"
+    },
+    {
+      "id": "b7a3b002-5dee-4e3e-a861-3c22091fabdb",
+      "date": "2024-04-30T01:39:21.525Z",
+      "user": "ibrahim",
+      "title": "redux",
+      "text": "redux nasıl çalışır mantığı nedir?"
+    }
+  ]
+}

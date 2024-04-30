@@ -1,0 +1,14 @@
+import React from "react";
+import { NavLink } from "react-router-dom";
+
+const Header = () => {
+  return (
+    <header>
+      <h1>Form</h1>
+      <NavLink to={"/"}>Gönderiler</NavLink>
+      <NavLink to={"/add-post"}>Gönderi Ekle</NavLink>
+    </header>
+  );
+};
+
+export default Header;
